@@ -28,6 +28,7 @@ namespace APICeciliaCastellonFriend
             // Configure la lógica de validación de contraseñas
             manager.PasswordValidator = new PasswordValidator
             {
+                //se ha cambiado la longitud del password a 4 y ya no se requieren caracteres especiales
                 RequiredLength = 4,
                 RequireNonLetterOrDigit = false,
                 RequireDigit = true,
