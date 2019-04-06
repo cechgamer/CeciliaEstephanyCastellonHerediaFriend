@@ -11,6 +11,6 @@ namespace MVCCeciliaCastellonFriend.Models
 
         }
 
-        public System.Data.Entity.DbSet<MVCCeciliaCastellonFriend.Models.CeciliaCastellonFriend> Products { get; set; }
+        public System.Data.Entity.DbSet<MVCCeciliaCastellonFriend.Models.CeciliaCastellonFriend> CeciliaCastellonFriends{ get; set; }
     }
 }

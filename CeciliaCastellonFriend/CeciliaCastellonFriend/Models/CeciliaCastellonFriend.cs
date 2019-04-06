@@ -27,8 +27,7 @@ namespace MVCCeciliaCastellonFriend.Models
         public int FriendId { get; set; }
         
 
-        [Required]
-        [Display(Name = "Nombre Completo")]
+      
         public string  Nombre { get; set; }
 
 
@@ -36,7 +35,7 @@ namespace MVCCeciliaCastellonFriend.Models
 
 
 
-        [Required]
+        
         public TipoAmigo Amigo { get; set; }
 
         
